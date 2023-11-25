@@ -1,0 +1,51 @@
+#cardInfo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #612406;
+    font-size: 20px;
+    text-align: center;
+    padding:  40px;
+}
+
+
+#cardInfo button{
+    border-radius: 20px;
+    border: none;
+    background-color: #F3DF85;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    color: #612406;
+    margin-top: 15px;
+}
+
+#cardBox{
+    margin: 53px;
+    width: 450px;
+    background-color: blanchedalmond;
+    border-radius: 100px;
+}
+
+#contentFoto{
+    background-image: url(../img/honey.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px 100px 0px 0px;
+}
+
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#titolo h2,p{
+    margin: 3px;
+}
+
+@media screen and(max-width:576px){
+    
+}
+
+
